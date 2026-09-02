@@ -2,15 +2,19 @@
   "name": "file_04",
   "version": "1.0.0",
   "description": "a backend at CAC",
+  "type": "module",
   "keywords": [
     "javasript",
     "backend"
   ],
   "license": "ISC",
   "author": "Sushanjit",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
